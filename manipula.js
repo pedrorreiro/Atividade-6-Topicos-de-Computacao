@@ -26,3 +26,12 @@ let func = funcionarios.reduce((anterior, atual) => {
 });
 
 //console.log(func);
+
+// Nomes uppercase
+
+funcUpperCase = funcionarios.map(func => {
+	func.nome = (func.nome).toUpperCase();
+	return func;
+});
+
+ console.log(funcUpperCase);
